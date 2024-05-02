@@ -1,0 +1,179 @@
+/*Style Ref*/
+
+
+/*A style sheet is used to universally apply certain things to every page your site has. This can be useful for using shorthand variables to refer to a set guide rather than redefining the guide for every individual page. I fully documented what this stuff is if you want to change it*/
+
+/*This is for the main sections of text*/
+.pink1 {
+padding:50px; /*Dictates the spacing between the text and the borders of the section*/
+position: relative; /*If you want the text to change and scale with the orientation of the window keep it on relative*/
+background: #ffbed3; /*Color of the section*/
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6); /*Drop shadow, can be adjusted if you want (first four values are how many pixels in whatever direction you want the shadow to go, the rgba values are the color and opacity*/
+}
+
+
+/*This is if you want to embed a youtube video or something like that*/
+.ratio {
+aspect-ratio: 16/9; /*Keeps the embed at this ratio regardless of the size of the window*/
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6); /*Drop shadow*/
+}
+
+
+body {
+    background-color:#71ffb1; /*Background color*/
+    background-repeat: no-repeat; /*Makes sure if the background is an image it doesn't repeat itself into another copy of the image*/
+    background-attachment: fixed; /*The background image moves with the page scroll*/
+    background-size: cover; /*Covers the whole background over the whole page*/
+    
+    /*Text Color*/
+    color:#000000; /*Self-explanatory*/
+    
+    /*Text Margins*/
+    margin: 50px; /*Space between section and border of the window*/
+    padding: 50px; /*Space between each section*/
+    
+    /*Font*/
+
+    /*Font you chose, wouldn't mess with any of this*/
+    .poppins-thin {
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+    
+    .poppins-extralight {
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+    
+    .poppins-light {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
+    .poppins-regular {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .poppins-medium {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+    .poppins-semibold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    
+    .poppins-bold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .poppins-extrabold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+    }
+    
+    .poppins-black {
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    
+    .poppins-thin-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-style: italic;
+    }
+    
+    .poppins-extralight-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: italic;
+    }
+    
+    .poppins-light-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: italic;
+    }
+    
+    .poppins-regular-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    
+    .poppins-medium-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: italic;
+    }
+    
+    .poppins-semibold-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+    }
+    
+    .poppins-bold-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+    
+    .poppins-extrabold-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: italic;
+    }
+    
+    .poppins-black-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      font-style: italic;
+    }
+    
+    /*Font Size*/
+
+    /*Self-explanatory, these are called on in the text to define the font size, as you can see in index.html*/
+    h1 {
+        font-size:60px;
+    }
+    h2 {
+        font-size:45px;
+    }
+    h3 {
+        font-size:33px;
+    }
+    p {
+        font-size:26px;
+    }
+
+.CrispPixels {
+  /*Wouldn't mess with this code either, this just makes images crisper and less compressed if you're making low quality images bigger*/
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+}
+.CrispPixels2 {
+  /*Same as above, designated for transparent images to get rid of drop shadow*/
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+}
